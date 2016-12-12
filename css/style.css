@@ -334,7 +334,7 @@ margin-top:50px;
 .wel-grid .icon {
   width: 100px;
   height: 100px;
-  line-height: 100px;
+  line-height: 300%;
   text-align: conter;
   color: #fff;
   font-size: 30px;
@@ -765,17 +765,17 @@ color:#76b852;
 	  margin-top: 35px;
 	}
 	.nav-left a {
-	  font-size: 7em;
+	  font-size: 4em;
 	}
 	.nav-right ul li a {
 	  font-size: 14px;
-	  padding: 8px 47px;
+	  padding: 8px 20px;
 	}
 	.nav-right ul li:nth-child(2) a ,.nav-right ul li:nth-child(4) a {
-	  padding: 8px 37px;
+	  padding: 8px 20px;
 	}
 	.nav-right ul li:nth-child(1) a,.nav-right ul li:nth-child(5) a {
-	  padding: 8px 27px;
+	  padding: 8px 20px;
 	}
 	.nav-right ul li {
 	  line-height: 3.5em;
@@ -896,11 +896,11 @@ color:#76b852;
 @media (max-width: 768px){
 	.navigation {
 	  float: left;
-	  width: 30%;
+	  width: 40%;
 	}
 	.banner-image {
 	  float: left;
-	  width: 70%;
+	  width: 60%;
 	}
 	.banner-image img {
 	  width: 65%;
@@ -913,13 +913,13 @@ color:#76b852;
 	}
 	.nav-right ul li a {
 	  font-size: 14px;
-	  padding: 8px 47px;
+	  padding: 8px 20px;
 	}
 	.nav-right ul li:nth-child(2) a ,.nav-right ul li:nth-child(4) a {
-	  padding: 8px 37px;
+	  padding: 8px 20px;
 	}
 	.nav-right ul li:nth-child(1) a,.nav-right ul li:nth-child(5) a {
-	  padding: 8px 27px;
+	  padding: 8px 20px;
 	}
 	.nav-right ul li {
 	  line-height: 3.5em;
@@ -1039,7 +1039,7 @@ color:#76b852;
 }
 @media (max-width: 640px){
 	.nav-left a {
-	  font-size: 5.5em;
+	  font-size: 2em;
 	}
 	.navigation {
 	  padding-top: 0;
@@ -1049,12 +1049,12 @@ color:#76b852;
 	}
 	.nav-right ul li a {
 	  font-size: 13px;
-	  padding: 8px 30px;
-	}
-	.nav-right ul li:nth-child(2) a ,.nav-right ul li:nth-child(4) a {
 	  padding: 8px 20px;
 	}
-	.nav-right ul li:nth-child(1) a,.nav-right ul li:nth-child(5) a {
+	.nav-right ul li:nth-child(2) a ,.nav-right ul li:nth-child(4) a,.nav-right ul li:nth-child(5) a  {
+	  padding: 8px 20px;
+	}
+	.nav-right ul li:nth-child(1) a{
 	  padding: 8px 10px;
 	}
 	.nav-right ul li {
@@ -1193,7 +1193,7 @@ color:#76b852;
 	  padding: 0 10px;
 	}
 	.nav-left a {
-	  font-size: 4em;
+	  font-size: 1.5em;
 	}
 	.nav-right ul {
 	  margin: 10px 0 0 0;
@@ -1202,13 +1202,16 @@ color:#76b852;
 	  width: 81%;
 	}
 	.nav-right ul li a {
-	  padding: 8px 11px;
+	  padding: 8px 0px;
+	  text-indent: -10px;
 	}
 	.nav-right ul li:nth-child(2) a ,.nav-right ul li:nth-child(4) a {
-	  padding: 8px 7px;
+	  padding: 8px 0px;
+	  text-indent: -10px;
 	}
 	.nav-right ul li:nth-child(1) a,.nav-right ul li:nth-child(5) a {
-	  padding: 8px 4px;
+	  padding: 8px 0px;
+	  text-indent: -10px;
 	}
 	
 }
@@ -1268,7 +1271,7 @@ padding:0;
 	  margin-top: 20px;
 	}
 	.nav-left a {
-	  font-size: 3em;
+	  font-size: 1.5em;
 	}
 	.nav-left {
 	  width: 29.2%;
